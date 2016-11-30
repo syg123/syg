@@ -1,0 +1,236 @@
+教师机 19:43:03
+一、创建Fekit项目
+1、fekit init  初始化
+2、输入项目名称
+3、输入版本号
+说明：输入fekit init projectName用于创建一个文件夹，即fekit初始化项目
+二、把已有的项目转化为Fekit项目
+1、输入cd 目录进入转化的fekit项目目录
+2、输入fekit init回车
+三、config配置信息
+1、compiler:
+项目开发时用modular;组件开发时用component
+2、dependencies:依赖的组件、库
+3、alias:目录别名
+4、export:
+需要打包导出的js、css等静态文件列表
+四、如何通过fekit搭建本地开发环境调试
+1、通过fekit创建一个http服:输入fekit server
+在后面输入-p 端口号用来设置端口号
+2、通过fekit server --help来查看fekit server的所有参数
+3、fekit server -n
+让fekit忽略是否在fekit.config的export中配置了入口文件
+说明：通过fekit启动多个服务时，需配置端口号
+五、模块化开发
+模块化简介
+模块定义：一个文件就是一个模块，每个模块都有单独的作用域
+模块输出：通过module.exports公开方法或属性
+模块加载：使用require("模块路径")方法引用模块
+通过module.exports=的形式或是exports.属性或方法的形式向外暴漏
+模块化简介 AMD
+1、AMD注重解决两个问题：
+(1)、模块之间的依赖关系
+(2)、模块的异步加载
+2、CMD
+说明：fekit是基于node.js开发的，node.js采用的是common.js
+六、fekit.config配置参数
+1、在export种设置入口文件
+2、在alias中设置别名
+说明：在引用时扩展名可省略不写，/可以写为.
+3、在index.html中引用的js文件为入口文件，需要在config的export中进行配置，这样在
+fekit编译时才能找到这些文件，其他的JS是通过require导入进来的，不需要在export中
+进行定义。
+六、组件管理
+
+
+一、创建Fekit项目
+1、fekit init  初始化
+2、输入项目名称
+3、输入版本号
+说明：输入fekit init projectName用于创建一个文件夹，即fekit初始化项目
+二、把已有的项目转化为Fekit项目
+1、输入cd 目录进入转化的fekit项目目录
+2、输入fekit init回车
+三、config配置信息
+1、compiler:
+项目开发时用modular;组件开发时用component
+2、dependencies:依赖的组件、库
+3、alias:目录别名
+4、export:
+需要打包导出的js、css等静态文件列表
+四、如何通过fekit搭建本地开发环境调试
+1、通过fekit创建一个http服:输入fekit server
+在后面输入-p 端口号用来设置端口号
+2、通过fekit server --help来查看fekit server的所有参数
+3、fekit server -n
+让fekit忽略是否在fekit.config的export中配置了入口文件
+说明：通过fekit启动多个服务时，需配置端口号
+五、模块化开发
+模块化简介
+模块定义：一个文件就是一个模块，每个模块都有单独的作用域
+模块输出：通过module.exports公开方法或属性
+模块加载：使用require("模块路径")方法引用模块
+通过module.exports=的形式或是exports.属性或方法的形式向外暴漏
+模块化简介 AMD
+1、AMD注重解决两个问题：
+(1)、模块之间的依赖关系
+(2)、模块的异步加载
+2、CMD
+说明：fekit是基于node.js开发的，node.js采用的是common.js
+六、fekit.config配置参数
+1、在export种设置入口文件
+2、在alias中设置别名
+说明：在引用时扩展名可省略不写，/可以写为.
+3、在index.html中引用的js文件为入口文件，需要在config的export中进行配置，这样在
+fekit编译时才能找到这些文件，其他的JS是通过require导入进来的，不需要在export中
+进行定义。
+六、组件管理
+
+
+一、创建Fekit项目
+1、fekit init  初始化
+2、输入项目名称
+3、输入版本号
+说明：输入fekit init projectName用于创建一个文件夹，即fekit初始化项目
+二、把已有的项目转化为Fekit项目
+1、输入cd 目录进入转化的fekit项目目录
+2、输入fekit init回车
+三、config配置信息
+1、compiler:
+项目开发时用modular;组件开发时用component
+2、dependencies:依赖的组件、库
+3、alias:目录别名
+4、export:
+需要打包导出的js、css等静态文件列表
+四、如何通过fekit搭建本地开发环境调试
+1、通过fekit创建一个http服:输入fekit server
+在后面输入-p 端口号用来设置端口号
+2、通过fekit server --help来查看fekit server的所有参数
+3、fekit server -n
+让fekit忽略是否在fekit.config的export中配置了入口文件
+说明：通过fekit启动多个服务时，需配置端口号
+五、模块化开发
+模块化简介
+模块定义：一个文件就是一个模块，每个模块都有单独的作用域
+模块输出：通过module.exports公开方法或属性
+模块加载：使用require("模块路径")方法引用模块
+通过module.exports=的形式或是exports.属性或方法的形式向外暴漏
+模块化简介 AMD
+1、AMD注重解决两个问题：
+(1)、模块之间的依赖关系
+(2)、模块的异步加载
+2、CMD
+说明：fekit是基于node.js开发的，node.js采用的是common.js
+六、fekit.config配置参数
+1、在export种设置入口文件
+2、在alias中设置别名
+说明：在引用时扩展名可省略不写，/可以写为.
+3、在index.html中引用的js文件为入口文件，需要在config的export中进行配置，这样在
+fekit编译时才能找到这些文件，其他的JS是通过require导入进来的，不需要在export中
+进行定义。
+六、组件管理
+
+
+一、创建Fekit项目
+1、fekit init  初始化
+2、输入项目名称
+3、输入版本号
+说明：输入fekit init projectName用于创建一个文件夹，即fekit初始化项目
+二、把已有的项目转化为Fekit项目
+1、输入cd 目录进入转化的fekit项目目录
+2、输入fekit init回车
+三、config配置信息
+1、compiler:
+项目开发时用modular;组件开发时用component
+2、dependencies:依赖的组件、库
+3、alias:目录别名
+4、export:
+需要打包导出的js、css等静态文件列表
+四、如何通过fekit搭建本地开发环境调试
+1、通过fekit创建一个http服:输入fekit server
+在后面输入-p 端口号用来设置端口号
+2、通过fekit server --help来查看fekit server的所有参数
+3、fekit server -n
+让fekit忽略是否在fekit.config的export中配置了入口文件
+说明：通过fekit启动多个服务时，需配置端口号
+五、模块化开发
+模块化简介
+模块定义：一个文件就是一个模块，每个模块都有单独的作用域
+模块输出：通过module.exports公开方法或属性
+模块加载：使用require("模块路径")方法引用模块
+通过module.exports=的形式或是exports.属性或方法的形式向外暴漏
+模块化简介 AMD
+1、AMD注重解决两个问题：
+(1)、模块之间的依赖关系
+(2)、模块的异步加载
+2、CMD
+说明：fekit是基于node.js开发的，node.js采用的是common.js
+六、fekit.config配置参数
+1、在export种设置入口文件
+2、在alias中设置别名
+说明：在引用时扩展名可省略不写，/可以写为.
+3、在index.html中引用的js文件为入口文件，需要在config的export中进行配置，这样在
+fekit编译时才能找到这些文件，其他的JS是通过require导入进来的，不需要在export中
+进行定义。
+
+六、组件管理
+ 教师机 19:43:22
+一、注册
+二、删除仓库
+（1）、选中要删除的仓库、点击settings，输入仓库名称，删除
+三、创建仓库
+（1）、输入仓库名称
+（2）、是否在仓库中加一个readme文档
+四、克隆代码
+（1）、使用SSH协议，SSH和HTTPS(传输加密协议，每次都要输入用户名密码)
+（2）、将地址复制
+（3）、进入workspace，输入git clone 粘贴地址
+五、配置SSH公钥
+（1）、ssh-keygen -t rsa -C xiaoruzhao@qq.com
+（2）、打开id_rsa.pub（公钥），复制代码
+（3）、回到github，点击右上角图标点击settings
+（4）、点击SSH and GPG keys，点击New SSH key，输入title，粘贴Key
+（5）、点击添加
+（6）、git clone  粘贴地址
+六、同步代码（如何将修改的代码提交到远端）
+（1）、进入目录
+（2）、设置用户名和密码
+git config --global  user.name @前面的用户名
+git config --global  user.email emailAddress
+（3）、git status 查看文件修改的状态
+（4）、git add .  
+（5）、git status
+（6）、git commit -a -m "注释信息"  不管是添加还是修改都提交上去，忘记输入-m，按esc输入:q或:wq退出
+（7）、git  push 提交到远端
+七、分支（多人合作，一般是在分支上开发，在主干上发布）
+（1）、git branch 查看分支
+（2）、git checkout -b "20161128-footballSNS-bugfix"  从当前分支上拉一个分支出来
+（3）、git branch
+（4）、git checkout  master 切换分支
+（5）、分支的映射 git push --set-upstream origin 20161128-footballSNS-bugfix  在远端创建一个分支
+（6）、打开.git/config，复制修改分支名称
+八、diff代码
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+（8）、git  clone    git  pull  把代码从远程拉下来
+git branch 查看分支
+git checkout -b "分支名称"
+git checkout "分支" 切换分支
+git push --set-upstream origin "20160815-footballSNS-test"
+必须在master下操作
