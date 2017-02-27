@@ -1,0 +1,76 @@
+{
+	"item":[
+		{
+			"pic":"/static/images/f1.jpg",
+			"title":"斯科塞斯新片卖出5000万美元",
+			"content":{
+				"time":"26分钟前",
+				"img1":"/static/images/f5.jpg",
+				"num1":"220",
+				"img2":"/static/images/f6.jpg",
+				"num2":"200"
+			}
+
+		},
+		{
+			"pic":"/static/images/f2.jpg",
+			"title":"娜塔莉波特确定缺席《雷神3》",
+			"content":{
+				"time":"28分钟前",
+				"img1":"/static/images/f5.jpg",
+				"num1":"290",
+				"img2":"/static/images/f6.jpg",
+				"num2":"220"
+			}
+
+		},
+		{
+			"pic":"/static/images/f3.jpg",
+			"title":"《海底总动员》内地定档",
+			"content":{
+				"time":"30分钟前",
+				"img1":"/static/images/f5.jpg",
+				"num1":"320",
+				"img2":"/static/images/f6.jpg",
+				"num2":"260"
+			}
+
+		},
+		{
+			"pic":"/static/images/f4.jpg",
+			"title":"大表姐或加盟《十一罗汉》",
+			"content":{
+				"time":"36分钟前",
+				"img1":"/static/images/f5.jpg",
+				"num1":"450",
+				"img2":"/static/images/f6.jpg",
+				"num2":"300"
+			}
+
+		},
+		{
+			"pic":"/static/images/f2.jpg",
+			"title":"大表姐或加盟《十一罗汉》",
+			"content":{
+				"time":"36分钟前",
+				"img1":"/static/images/f5.jpg",
+				"num1":"450",
+				"img2":"/static/images/f6.jpg",
+				"num2":"300"
+			}
+
+		},
+		{
+			"pic":"/static/images/f3.jpg",
+			"title":"大表姐或加盟《十一罗汉》",
+			"content":{
+				"time":"36分钟前",
+				"img1":"/static/images/f5.jpg",
+				"num1":"450",
+				"img2":"/static/images/f6.jpg",
+				"num2":"300"
+			}
+
+		}
+	]
+}
